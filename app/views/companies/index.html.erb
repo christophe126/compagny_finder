@@ -1,0 +1,8 @@
+<h1>Liste des entreprises</h1>
+<H3>Nombre de résultats : <%= @result["etablissement"].count %></H3>
+<a class="btn btn-success">Am I a green button?</a>
+<ul>
+  <% @result["etablissement"].each do |etab| %>
+  <li><%= etab["nom_raison_sociale"] %> </li>
+  <% end %>
+</ul>

@@ -96,8 +96,8 @@ GEM
     erubi (1.10.0)
     execjs (2.7.0)
     ffi (1.15.5)
-    font-awesome-sass (6.1.1)
-      sassc (~> 2.0)
+    font-awesome-sass (5.15.1)
+      sassc (>= 1.11)
     globalid (1.0.0)
       activesupport (>= 5.0)
     i18n (1.10.0)
@@ -137,8 +137,6 @@ GEM
       nio4r (~> 2.0)
     racc (1.6.0)
     rack (2.2.3)
-    rack-mini-profiler (2.3.4)
-      rack (>= 1.2.0)
     rack-proxy (0.7.2)
       rack
     rack-test (1.1.0)
@@ -246,14 +244,13 @@ DEPENDENCIES
   capybara (>= 3.26)
   devise
   dotenv-rails
-  font-awesome-sass
+  font-awesome-sass (~> 5.15.1)
   jbuilder (~> 2.7)
   listen (~> 3.3)
   pg (~> 1.1)
   pry-byebug
   pry-rails
   puma (~> 5.0)
-  rack-mini-profiler (~> 2.0)
   rails (~> 6.1.4, >= 6.1.4.6)
   redis (~> 4.0)
   sass-rails (>= 6)
