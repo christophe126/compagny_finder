@@ -13,8 +13,6 @@ User.destroy_all
 puts '----------Creating new users---------'
 
 User.create(
-  first_name: 'Christophe',
-  last_name: 'Christophe',
   email: 'christophe@christophe.com',
   password: "christophe"
 )
