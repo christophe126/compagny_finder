@@ -16,4 +16,4 @@ User.create(
   email: 'christophe@christophe.com',
   password: "christophe"
 )
-puts '----------Creating User Mederic Done---------'
+puts '----------Creating User Christophe Done---------'
